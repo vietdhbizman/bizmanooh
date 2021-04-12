@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "379170861954",
+    "project_id": "bizooh-app-notification",
+    "storage_bucket": "bizooh-app-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379170861954:android:fa9f5e5a3cfb97c242959b",
+        "android_client_info": {
+          "package_name": "com.bizooh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379170861954-6da9iijdg82q76o78cl024pjaaepeplo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvew6OZ7FPTrmFJGBkptHlkI4npzlnAFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379170861954-6da9iijdg82q76o78cl024pjaaepeplo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

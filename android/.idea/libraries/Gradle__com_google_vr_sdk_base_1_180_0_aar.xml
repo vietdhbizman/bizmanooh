@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.vr:sdk-base:1.180.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c0a4eb223a0ef938a5205fea19f636a/jetified-sdk-base-1.180.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/237ed398b2af140b8d2df24df60ffce1/jetified-sdk-base-1.180.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7ef4606a3ff943336af4ab7c8d9cfad/jetified-sdk-base-1.180.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7ef4606a3ff943336af4ab7c8d9cfad/jetified-sdk-base-1.180.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7ef4606a3ff943336af4ab7c8d9cfad/jetified-sdk-base-1.180.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
