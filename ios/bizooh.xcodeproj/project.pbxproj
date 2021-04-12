@@ -45,7 +45,7 @@
 		ACD00718484642CF81FA123F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B879659349CA4D728F45C883 /* Roboto-Light.ttf */; };
 		AE2117C963E241129BCF3066 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BE03C4F1721485984B781AF /* Raleway-SemiBold.ttf */; };
 		BB18FBFA256A786B0013C8DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB18FBF9256A786B0013C8DA /* GoogleService-Info.plist */; };
-		BDA65AA2DFAC238C3645242B /* libPods-listar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB1F48A174AD97633A62D95 /* libPods-listar.a */; };
+		BDA65AA2DFAC238C3645242B /* libPods-bizooh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB1F48A174AD97633A62D95 /* libPods-bizooh.a */; };
 		CCDCF0A525224D2484B6DFE6 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D09A9458A3F94FD3BFBF73B2 /* Raleway-SemiBoldItalic.ttf */; };
 		D179FD6232A74544AEF45866 /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E1D217DCBA5474B98E66CAF /* Merriweather-BoldItalic.ttf */; };
 		D6CF3237663345A587FFB57A /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F622625F13DA4F38AB2224CF /* Merriweather-Light.ttf */; };
@@ -60,12 +60,12 @@
 		03D070994B9F498883148AFF /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		094FA3D88D5F460383D15556 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../app/assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		1375E1A343ED4E1598FCA202 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../app/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Listar Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Listar Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = listar/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = listar/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = listar/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = listar/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = listar/main.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Bizman OOH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bizman OOH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = bizooh/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = bizooh/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = bizooh/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = bizooh/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = bizooh/main.m; sourceTree = "<group>"; };
 		17F1ED5C6D6840F5808B6204 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraLight.ttf"; path = "../app/assets/fonts/Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
 		246CFB82D07449068E72BFD1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../app/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		2BE03C4F1721485984B781AF /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBold.ttf"; path = "../app/assets/fonts/Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		31BB169C56344B9590590590 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-BoldItalic.ttf"; path = "../app/assets/fonts/Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
 		31E9AD140A524DEEA7D74EEA /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraLightItalic.ttf"; path = "../app/assets/fonts/Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		32E339EF708043FA9741E7D7 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		38934506B83B1265179DC975 /* Pods-listar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-listar.debug.xcconfig"; path = "Target Support Files/Pods-listar/Pods-listar.debug.xcconfig"; sourceTree = "<group>"; };
+		38934506B83B1265179DC975 /* Pods-bizooh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bizooh.debug.xcconfig"; path = "Target Support Files/Pods-bizooh/Pods-bizooh.debug.xcconfig"; sourceTree = "<group>"; };
 		3B5DDF00191D41C0A5FACE3C /* Merriweather-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather-Black.ttf"; path = "../app/assets/fonts/Merriweather-Black.ttf"; sourceTree = "<group>"; };
 		3E475FFA48FC4D7C8A472B97 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../app/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		42B6F0718BD541929C2CACC1 /* Raleway-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Black.ttf"; path = "../app/assets/fonts/Raleway-Black.ttf"; sourceTree = "<group>"; };
@@ -87,14 +87,14 @@
 		6BD34B8E62C0492FB2CB34CB /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		739197840B204DE687F6AAE9 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraBold.ttf"; path = "../app/assets/fonts/Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
 		7BD9364FE2DD43C8A0305638 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ThinItalic.ttf"; path = "../app/assets/fonts/Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = listar/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = bizooh/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		831E87F36D9F45089A1D992A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../app/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		889B7279C2254F52B2DE8424 /* bm_icomoon.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = bm_icomoon.ttf; path = ../app/assets/fonts/bm_icomoon.ttf; sourceTree = "<group>"; };
 		8E1D217DCBA5474B98E66CAF /* Merriweather-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather-BoldItalic.ttf"; path = "../app/assets/fonts/Merriweather-BoldItalic.ttf"; sourceTree = "<group>"; };
 		8E2B4178311249C68FC9D9C1 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		8FC39D7FF343452DA34BB651 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		91D46253DAE04358A63CA376 /* Merriweather-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather-LightItalic.ttf"; path = "../app/assets/fonts/Merriweather-LightItalic.ttf"; sourceTree = "<group>"; };
-		943AC7974B64D1D218950313 /* Pods-listar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-listar.release.xcconfig"; path = "Target Support Files/Pods-listar/Pods-listar.release.xcconfig"; sourceTree = "<group>"; };
+		943AC7974B64D1D218950313 /* Pods-bizooh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bizooh.release.xcconfig"; path = "Target Support Files/Pods-bizooh/Pods-bizooh.release.xcconfig"; sourceTree = "<group>"; };
 		9565AAE5BAA6483EB0A2A648 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		976D64B169D84D1EB9171AD3 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		994494D4F526400AB11BA9A6 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
@@ -106,11 +106,11 @@
 		B879659349CA4D728F45C883 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../app/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
 		B8FCC8A1811F41FAA80C9EFC /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		BB18FBF9256A786B0013C8DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		BB18FCD7256A84A50013C8DA /* Listar Pro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Listar Pro.entitlements"; path = "listar/Listar Pro.entitlements"; sourceTree = "<group>"; };
+		BB18FCD7256A84A50013C8DA /* Bizman OOH.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Bizman OOH.entitlements"; path = "bizooh/Bizman OOH.entitlements"; sourceTree = "<group>"; };
 		C5A19655118A4CB983AA39DB /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		C603FB9D6FCA4318B4754F6C /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		C821AE624D824B1EA0E9723B /* icomoon.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = icomoon.ttf; path = ../app/assets/fonts/icomoon.ttf; sourceTree = "<group>"; };
-		CDB1F48A174AD97633A62D95 /* libPods-listar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-listar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB1F48A174AD97633A62D95 /* libPods-bizooh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bizooh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB29CE7EADA46B0A17A1075 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Bold.ttf"; path = "../app/assets/fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; };
 		CFAFCC0BD98B4699A65E0A4E /* Merriweather-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather-BlackItalic.ttf"; path = "../app/assets/fonts/Merriweather-BlackItalic.ttf"; sourceTree = "<group>"; };
 		D09A9458A3F94FD3BFBF73B2 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDA65AA2DFAC238C3645242B /* libPods-listar.a in Frameworks */,
+				BDA65AA2DFAC238C3645242B /* libPods-bizooh.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +142,7 @@
 		13B07FAE1A68108700A75B9A /* bizooh */ = {
 			isa = PBXGroup;
 			children = (
-				BB18FCD7256A84A50013C8DA /* Listar Pro.entitlements */,
+				BB18FCD7256A84A50013C8DA /* Bizman OOH.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -159,7 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				CDB1F48A174AD97633A62D95 /* libPods-listar.a */,
+				CDB1F48A174AD97633A62D95 /* libPods-bizooh.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -181,7 +181,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Listar Pro.app */,
+				13B07F961A680F5B00A75B9A /* Bizman OOH.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -252,8 +252,8 @@
 		BD02CD5DD465AC433BFBA178 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				38934506B83B1265179DC975 /* Pods-listar.debug.xcconfig */,
-				943AC7974B64D1D218950313 /* Pods-listar.release.xcconfig */,
+				38934506B83B1265179DC975 /* Pods-bizooh.debug.xcconfig */,
+				943AC7974B64D1D218950313 /* Pods-bizooh.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -261,9 +261,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* listar */ = {
+		13B07F861A680F5B00A75B9A /* bizooh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "listar" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "bizooh" */;
 			buildPhases = (
 				1AAE96E5898CDFBE4E17E3FB /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -278,9 +278,9 @@
 			);
 			dependencies = (
 			);
-			name = listar;
-			productName = listar;
-			productReference = 13B07F961A680F5B00A75B9A /* Listar Pro.app */;
+			name = bizooh;
+			productName = bizooh;
+			productReference = 13B07F961A680F5B00A75B9A /* Bizman OOH.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -297,7 +297,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "listar" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "bizooh" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -310,7 +310,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* listar */,
+				13B07F861A680F5B00A75B9A /* bizooh */,
 			);
 		};
 /* End PBXProject section */
@@ -397,7 +397,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-listar-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-bizooh-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -410,7 +410,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-listar/Pods-listar-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-bizooh/Pods-bizooh-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
@@ -453,7 +453,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-listar/Pods-listar-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bizooh/Pods-bizooh-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E3FF17D1669CB80908E3883A /* [CP-User] [RNFB] Core Configuration */ = {
@@ -502,15 +502,15 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38934506B83B1265179DC975 /* Pods-listar.debug.xcconfig */;
+			baseConfigurationReference = 38934506B83B1265179DC975 /* Pods-bizooh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "listar/Listar Pro.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "bizooh/Bizman OOH.entitlements";
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 3C2ZJ87Z72;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = listar/Info.plist;
+				INFOPLIST_FILE = bizooh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
@@ -519,7 +519,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bizman.bizmanooh;
-				PRODUCT_NAME = "Listar Pro";
+				PRODUCT_NAME = "Bizman OOH";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -529,14 +529,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 943AC7974B64D1D218950313 /* Pods-listar.release.xcconfig */;
+			baseConfigurationReference = 943AC7974B64D1D218950313 /* Pods-bizooh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "listar/Listar Pro.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "bizooh/Bizman OOH.entitlements";
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 3C2ZJ87Z72;
-				INFOPLIST_FILE = listar/Info.plist;
+				INFOPLIST_FILE = bizooh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
@@ -545,7 +545,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bizman.bizmanooh;
-				PRODUCT_NAME = "Listar Pro";
+				PRODUCT_NAME = "Bizman OOH";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -670,7 +670,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "listar" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "bizooh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -679,7 +679,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "listar" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "bizooh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

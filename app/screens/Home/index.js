@@ -25,9 +25,9 @@ import {wishListActions} from '@actions';
 import {useTranslation} from 'react-i18next';
 import {FilterModel} from '@models';
 import {createIconSetFromIcoMoon} from 'react-native-vector-icons';
-import icomoonConfig from '../../assets/selection.json';
+// import icomoonConfig from '../../assets/selection.json';
 const deltaY = new Animated.Value(0);
-const Icomoon = createIconSetFromIcoMoon(icomoonConfig);
+// const Icomoon = createIconSetFromIcoMoon(icomoonConfig);
 export default function Home({navigation}) {
   const {colors} = useTheme();
   const {t} = useTranslation();
