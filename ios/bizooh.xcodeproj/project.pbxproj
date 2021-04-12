@@ -30,6 +30,7 @@
 		5676B134CC434A5C8237D0F4 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E121D50F52864D9F9D0BEA0C /* Raleway-ExtraBoldItalic.ttf */; };
 		5C4C5786876F4E3D81CBE90E /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AF640DF7CB04DB5908151EA /* Raleway-Regular.ttf */; };
 		5CDA02A094C34B55A2D4CA32 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E74A45E6A3F8458391452F94 /* Raleway-LightItalic.ttf */; };
+		604A56B7123D40BA9B91EA8E /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C821AE624D824B1EA0E9723B /* icomoon.ttf */; };
 		62DA2969B04A45F18B69C393 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF33D35A75F74265A87D52E9 /* Merriweather-Regular.ttf */; };
 		69B7E4F35B2A4A469F09AE38 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53DAA4B2AAFE4292BAF03FD6 /* Roboto-ThinItalic.ttf */; };
 		6FFB0300B5154C6587AB390A /* Merriweather-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91D46253DAE04358A63CA376 /* Merriweather-LightItalic.ttf */; };
@@ -51,8 +52,6 @@
 		EF8DBF4C51924920BBCEBFB7 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7222C2034514B7E874096C5 /* Raleway-Italic.ttf */; };
 		F2F9C032B78445209ADA4157 /* Merriweather-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6655AFB8C7914D899E94EB91 /* Merriweather-Italic.ttf */; };
 		F6BD5753494F4279B78F8F0E /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 695EED5BA6B5450ABD6C2577 /* Roboto-MediumItalic.ttf */; };
-		EBE6EB03EB8844EDA212D8DD /* bm_icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 889B7279C2254F52B2DE8424 /* bm_icomoon.ttf */; };
-		604A56B7123D40BA9B91EA8E /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C821AE624D824B1EA0E9723B /* icomoon.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +89,7 @@
 		7BD9364FE2DD43C8A0305638 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ThinItalic.ttf"; path = "../app/assets/fonts/Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = listar/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		831E87F36D9F45089A1D992A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../app/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		889B7279C2254F52B2DE8424 /* bm_icomoon.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = bm_icomoon.ttf; path = ../app/assets/fonts/bm_icomoon.ttf; sourceTree = "<group>"; };
 		8E1D217DCBA5474B98E66CAF /* Merriweather-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather-BoldItalic.ttf"; path = "../app/assets/fonts/Merriweather-BoldItalic.ttf"; sourceTree = "<group>"; };
 		8E2B4178311249C68FC9D9C1 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		8FC39D7FF343452DA34BB651 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
@@ -109,6 +109,7 @@
 		BB18FCD7256A84A50013C8DA /* Listar Pro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Listar Pro.entitlements"; path = "listar/Listar Pro.entitlements"; sourceTree = "<group>"; };
 		C5A19655118A4CB983AA39DB /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		C603FB9D6FCA4318B4754F6C /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		C821AE624D824B1EA0E9723B /* icomoon.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = icomoon.ttf; path = ../app/assets/fonts/icomoon.ttf; sourceTree = "<group>"; };
 		CDB1F48A174AD97633A62D95 /* libPods-listar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-listar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB29CE7EADA46B0A17A1075 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Bold.ttf"; path = "../app/assets/fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; };
 		CFAFCC0BD98B4699A65E0A4E /* Merriweather-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather-BlackItalic.ttf"; path = "../app/assets/fonts/Merriweather-BlackItalic.ttf"; sourceTree = "<group>"; };
@@ -124,8 +125,6 @@
 		F622625F13DA4F38AB2224CF /* Merriweather-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather-Light.ttf"; path = "../app/assets/fonts/Merriweather-Light.ttf"; sourceTree = "<group>"; };
 		FEA3E82037A541148CBF8339 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		FF48BFA2D0F14D9EBC21D871 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-MediumItalic.ttf"; path = "../app/assets/fonts/Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
-		889B7279C2254F52B2DE8424 /* bm_icomoon.ttf */ = {isa = PBXFileReference; name = "bm_icomoon.ttf"; path = "../app/assets/fonts/bm_icomoon.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C821AE624D824B1EA0E9723B /* icomoon.ttf */ = {isa = PBXFileReference; name = "icomoon.ttf"; path = "../app/assets/fonts/icomoon.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +139,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* listar */ = {
+		13B07FAE1A68108700A75B9A /* bizooh */ = {
 			isa = PBXGroup;
 			children = (
 				BB18FCD7256A84A50013C8DA /* Listar Pro.entitlements */,
@@ -153,7 +152,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = listar;
+			name = bizooh;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -168,7 +167,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* listar */,
+				13B07FAE1A68108700A75B9A /* bizooh */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BD02CD5DD465AC433BFBA178 /* Pods */,
@@ -290,7 +289,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = 3C2ZJ87Z72;
@@ -362,7 +361,6 @@
 				3092C377F1DD440B8325E052 /* Roboto-Thin.ttf in Resources */,
 				BB18FBFA256A786B0013C8DA /* GoogleService-Info.plist in Resources */,
 				69B7E4F35B2A4A469F09AE38 /* Roboto-ThinItalic.ttf in Resources */,
-				EBE6EB03EB8844EDA212D8DD /* bm_icomoon.ttf in Resources */,
 				604A56B7123D40BA9B91EA8E /* icomoon.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,7 +518,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.huynh.listarPro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bizman.bizmanooh;
 				PRODUCT_NAME = "Listar Pro";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -546,7 +544,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.huynh.listarPro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bizman.bizmanooh;
 				PRODUCT_NAME = "Listar Pro";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -577,6 +575,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -601,7 +600,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
@@ -637,6 +636,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -654,7 +654,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
