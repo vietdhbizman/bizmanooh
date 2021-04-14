@@ -1,4 +1,6 @@
 node_modules/
 ios/Pods
-ios/
-android/
+/ios/
+android/**
+./android/
+/android/*
