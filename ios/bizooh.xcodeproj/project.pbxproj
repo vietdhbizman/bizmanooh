@@ -47,6 +47,7 @@
 		BB18FBFA256A786B0013C8DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB18FBF9256A786B0013C8DA /* GoogleService-Info.plist */; };
 		BDA65AA2DFAC238C3645242B /* libPods-bizooh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB1F48A174AD97633A62D95 /* libPods-bizooh.a */; };
 		CCDCF0A525224D2484B6DFE6 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D09A9458A3F94FD3BFBF73B2 /* Raleway-SemiBoldItalic.ttf */; };
+		CE23798F2624618D003EAF30 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23798E2624618D003EAF30 /* File.swift */; };
 		D179FD6232A74544AEF45866 /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E1D217DCBA5474B98E66CAF /* Merriweather-BoldItalic.ttf */; };
 		D6CF3237663345A587FFB57A /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F622625F13DA4F38AB2224CF /* Merriweather-Light.ttf */; };
 		EF8DBF4C51924920BBCEBFB7 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7222C2034514B7E874096C5 /* Raleway-Italic.ttf */; };
@@ -111,6 +112,8 @@
 		C603FB9D6FCA4318B4754F6C /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		C821AE624D824B1EA0E9723B /* icomoon.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = icomoon.ttf; path = ../app/assets/fonts/icomoon.ttf; sourceTree = "<group>"; };
 		CDB1F48A174AD97633A62D95 /* libPods-bizooh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bizooh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE23798D2624618D003EAF30 /* bizooh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bizooh-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE23798E2624618D003EAF30 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		CEB29CE7EADA46B0A17A1075 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Bold.ttf"; path = "../app/assets/fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; };
 		CFAFCC0BD98B4699A65E0A4E /* Merriweather-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather-BlackItalic.ttf"; path = "../app/assets/fonts/Merriweather-BlackItalic.ttf"; sourceTree = "<group>"; };
 		D09A9458A3F94FD3BFBF73B2 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
@@ -167,11 +170,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				CE23798E2624618D003EAF30 /* File.swift */,
 				13B07FAE1A68108700A75B9A /* bizooh */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BD02CD5DD465AC433BFBA178 /* Pods */,
 				8B2C20E5B1E849FA9CFBE0C4 /* Resources */,
+				CE23798D2624618D003EAF30 /* bizooh-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -293,7 +298,7 @@
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = 3C2ZJ87Z72;
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -493,6 +498,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				CE23798F2624618D003EAF30 /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +526,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bizman.bizmanooh;
 				PRODUCT_NAME = "Bizman OOH";
+				SWIFT_OBJC_BRIDGING_HEADER = "bizooh-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -546,6 +553,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bizman.bizmanooh;
 				PRODUCT_NAME = "Bizman OOH";
+				SWIFT_OBJC_BRIDGING_HEADER = "bizooh-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
