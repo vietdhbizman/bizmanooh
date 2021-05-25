@@ -1,5 +1,5 @@
 import network from '@services/network';
-
+import network2 from '@services/network2';
 const endPoints = {
   login: 'index.php/wp-json/jwt-auth/v1/token',
   valid: 'index.php/wp-json/jwt-auth/v1/token/validate',
@@ -20,7 +20,11 @@ const endPoints = {
   setting: 'index.php/wp-json/listar/v1/setting/init',
   area: 'index.php/wp-json/listar/v1/location/list',
 };
-
+const endPoints2 = {
+  wfSubmit: 'index.php/oasis-workflow/v1/workflows/submit',
+  wfFirstStep: 'index.php/oasis-workflow/v1/workflows/submit/firstStep/workflowId=5',
+  wfSignOff: 'index.php/oasis-workflow/v1/workflows/signoff',
+};
 export const fetchLogin = (params) => {
   return network.post(endPoints.login, {params});
 };
@@ -91,4 +95,13 @@ export const getListProduct = (params) => {
 
 export const getListArea = (params) => {
   return network.get(endPoints.area, {params});
+};
+export const wfSubmit = (params) => {
+  return network2.post(endPoints2.wfSubmit, {params});
+};
+export const wfFirstStep = (params) => {
+  return network2.post(endPoints2.wfFirstStep, {params});
+};
+export const wfSignOff = (params) => {
+  return network2.post(endPoints2.wfSignOff, {params});
 };

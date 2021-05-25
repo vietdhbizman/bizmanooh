@@ -7,16 +7,22 @@ import {BaseSetting} from '@config';
 import DeviceInfo from 'react-native-device-info';
 
 export function* onSetup(action) {
+  console.log('on setup action',action);
   const urlObject = url.parse(
     [BaseSetting.protocol, action.domain].join('://'),
   );
+  const urlObject2 = url.parse(
+    [BaseSetting.protocol, action.domain2].join('://'),
+  );
   yield put({type: actionTypes.SAVE_URL, url: urlObject});
+  yield put({type: actionTypes.SAVE_SUB_URL, url2: urlObject2});
   yield put({type: actionTypes.SYNC_DEVICE_INFO});
   yield delay(250);
   try {
     const response = yield api.getSetting();
     if (response.success) {
       const setting = new SettingModel(response.data);
+      console.log('API setting',setting);
       yield put({type: actionTypes.SAVE_SETTING, setting});
     }
   } catch (error) {}

@@ -22,6 +22,7 @@
     "@react-navigation/native": "^5.8.10",
     "@react-navigation/stack": "^5.12.8",
     "axios": "^0.21.0",
+    "docx-templates": "^4.6.0",
     "i18next": "^19.8.4",
     "prop-types": "^15.7.2",
     "react": "17.0.1",

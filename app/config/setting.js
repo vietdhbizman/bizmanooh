@@ -6,6 +6,7 @@ export const BaseSetting = {
   displayName: 'Bizooh',
   appVersion: '1.0.1',
   domain: 'bizmanmedia.vn/bizooh/',
+  domain2: 'bizmanmedia.vn/ky-duyet/',
   protocol: 'http',
   defaultLanguage: 'vi',
   languageSupport: [

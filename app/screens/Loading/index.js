@@ -33,7 +33,7 @@ export default function Loading({navigation}) {
    */
   const onProcess = () => {
     dispatch(
-      configActions.onSetup(BaseSetting.domain, user, (response) => {
+      configActions.onSetup(BaseSetting.domain,BaseSetting.domain2, user, (response) => {
         navigation.replace('Main');
       }),
     );

@@ -13,6 +13,11 @@ export default (state = initialState, action = {}) => {
         ...state,
         url: action.url,
       };
+    case actionTypes.SAVE_SUB_URL:
+        return {
+          ...state,
+          url2: action.url2,
+        };
     case actionTypes.SAVE_SETTING:
       return {
         ...state,
